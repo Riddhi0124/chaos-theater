@@ -1,5 +1,7 @@
 # Chaos Theater
 
+**Live demo: https://riddhi0124.github.io/chaos-theater/**
+
 A resilience lab for a streaming platform. It simulates a microservice backend (API gateway, home page, playback, profile, recommendations, DRM license, CDN edges), lets you inject failures in the style of Chaos Monkey, and shows the system defending itself with timeouts, retries, circuit breakers, fallbacks and rate limiting. An anomaly detector opens incidents automatically, ranks the likely root cause and writes up the member impact.
 
 Everything runs in the browser. There is no backend to deploy.
